@@ -56,7 +56,7 @@ async function changeScreenPowerMode() {
 
 <template>
   <div class="sidebar">
-    <div data-tauri-drag-region class="logo">S M</div>
+    <div data-tauri-drag-region class="logo">NBB</div>
     <div class="module">
       <div :class="{ active: route.name == 'mask' }" @click="nav('mask')">
         <NIcon>
